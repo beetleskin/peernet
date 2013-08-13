@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plain\n"
+"POT-Creation-Date: 2013-04-23 02:38-0000\n"
+"PO-Revision-Date: 2013-04-23 02:39-0000\n"
+"Last-Translator: Authentic <support@authenticthemes.com>\n"
+"Language-Team: Authentic Themes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid "404: Page Not Found"
+msgstr "404: Seite nicht gefunden!"
+
+#: ../404.php:20
+msgid ""
+"Unfortunately, the page you tried accessing could not be retrieved. Please "
+"visit the"
+msgstr "Leider konnte die angeforderte Seite nicht gefunden werden. Hier geht's zurück zur "
+
+#: ../404.php:20
+msgid "homepage"
+msgstr "Startseite"

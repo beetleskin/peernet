@@ -1,12 +1,32 @@
 /*
-Theme Name: peernet Theme
-Template: att-apollo
-Author: Marina Thuns, Stefan Kaiser
-Description: The peernet theme, a customized Apollo theme (v 1.0)
-Version: 0.1
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: apollo_peernet
-*/
+ Theme Name: peernet Theme
+ Template: att-apollo
+ Author: Marina Thunsini, Stefan Kaiserström
+ Description: The peernet theme, a customized Apollo theme (v 1.0)
+ Version: 0.1
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain: apollo_peernet
+ */
 @import url("../att-apollo/style.css");
 /* -------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+	.header-box {
+		height: 50px;
+	}
+
+	.header-widget {
+		height: 100%;
+		display: block;
+		float: left;
+		margin-left: 2%;
+		line-height: 50px;
+	}
+
+	.header-widget.widget_qtranslate > ul > li {
+		margin-left: 10px;
+		display: block;
+		float: left;
+	}
+}

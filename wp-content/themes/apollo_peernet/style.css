@@ -20,6 +20,9 @@ p a{
 }
 
 @media (min-width: 768px) {
+	
+/*widget-box top*/
+
 	.header-box {
 		height: 50px;
 	}

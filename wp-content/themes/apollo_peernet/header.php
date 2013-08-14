@@ -23,11 +23,6 @@
 
 <div id="topbar-wrap">
     <nav id="topbar" class="container row clr">
-    	<div id="navigation" class="span_4 col clr">    
-			<?php
-            // Main navigation location
-            wp_nav_menu( array( 'theme_location' => 'top_menu', 'menu_class' => 'dropdown-menu', 'fallback_cb' => false, 'walker' => new ATT_Dropdown_Walker_Nav_Menu() ) ); ?>
-        </div><!-- #navigation -->
         <div class="span_4 col clr">
 			<?php
             // Show social icons - see functions/social.php
@@ -51,12 +46,11 @@
                     <?php if ( of_get_option('site_description','1') == '1' ) echo '<p id="site-description">'. get_bloginfo('description') .'</p>'; ?>
                 <?php }
                 // No custom img logo - show text
-                    else { ?>
-                     <h2 id="site-title"><a href="<?php echo home_url(); ?>/" title="<?php get_bloginfo( 'name' ); ?>" rel="home"><?php echo get_bloginfo( 'name' ); ?></a></h2>
-                     <?php if ( of_get_option('site_description','1') == '1' ) echo '<p id="site-description">'. get_bloginfo('description') .'</p>'; ?>
+                else { ?>
+                	<h2 id="site-title"><a href="<?php echo home_url(); ?>/" title="<?php get_bloginfo( 'name' ); ?>" rel="home"><?php echo get_bloginfo( 'name' ); ?></a></h2>
+                    <?php if ( of_get_option('site_description','1') == '1' ) echo '<p id="site-description">'. get_bloginfo('description') .'</p>'; ?>
                 <?php } ?>
             </div><!-- /logo -->
-            
             <?php
             // Show header ad as defined in the admin panel
             if( of_get_option('header_ad') !== '' ) {

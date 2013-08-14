@@ -2,34 +2,34 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plain\n"
 "POT-Creation-Date: 2013-04-23 02:38-0000\n"
-"PO-Revision-Date: 2013-04-23 02:39-0000\n"
+"PO-Revision-Date: 2013-08-14 17:10+0100\n"
 "Last-Translator: Authentic <support@authenticthemes.com>\n"
 "Language-Team: Authentic Themes\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-KeywordsList: _;_e;__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
 #: ../404.php:16
 msgid "404: Page Not Found"
-msgstr ""
+msgstr "404: Seite nicht gefunden"
 
 #: ../404.php:20
 msgid ""
 "Unfortunately, the page you tried accessing could not be retrieved. Please "
 "visit the"
-msgstr ""
+msgstr "Leider konnte die Seite nicht gefunden werden. Hier geht's zurück zur "
 
 #: ../404.php:20
 msgid "homepage"
-msgstr ""
+msgstr "Startseite"
 
 #: ../author.php:16
 msgid "Articles Written By"
-msgstr ""
+msgstr "Artikel geschrieben von"
 
 #: ../comments.php:17
 msgid "Leave a comment"
@@ -37,12 +37,12 @@ msgstr ""
 
 #: ../comments.php:17
 msgid "This article has 1 comment"
-msgstr ""
+msgstr "Dieser Artikel hat 1 Kommentar"
 
 #: ../comments.php:17
 #, php-format
 msgid "This article has % comments"
-msgstr ""
+msgstr "Dieser Artikel hat % Kommentare"
 
 #: ../comments.php:17
 msgid "Comments are currently closed"
@@ -90,15 +90,15 @@ msgstr ""
 
 #: ../content.php:59 ../single.php:45
 msgid "0 Comments"
-msgstr ""
+msgstr "0 Kommentare"
 
 #: ../content.php:59 ../single.php:45
 msgid "1 Comment"
-msgstr ""
+msgstr "1 Kommentar"
 
 #: ../content.php:59 ../single.php:45
 msgid "% Comments"
-msgstr ""
+msgstr "% Kommentare"
 
 #: ../date.php:17 ../date.php:19 ../date.php:21
 msgid "Archive For"
@@ -226,15 +226,15 @@ msgstr ""
 
 #: ../single.php:58
 msgid "Article Written By "
-msgstr ""
+msgstr "Geschrieben von "
 
 #: ../single.php:68
 msgid "Previous Article"
-msgstr ""
+msgstr "Vorheriger Artikel"
 
 #: ../single.php:69
 msgid "Next Article"
-msgstr ""
+msgstr "Nächster Artikel"
 
 #: ../functions/class-tgm-plugin-activation.php:164
 #: ../functions/recommend-plugins.php:75

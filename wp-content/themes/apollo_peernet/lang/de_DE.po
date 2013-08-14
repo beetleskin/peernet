@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plain\n"
 "POT-Creation-Date: 2013-04-23 02:38-0000\n"
-"PO-Revision-Date: 2013-08-14 17:10+0100\n"
-"Last-Translator: Authentic <support@authenticthemes.com>\n"
-"Language-Team: Authentic Themes\n"
+"PO-Revision-Date: 2013-08-15 01:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -216,13 +216,17 @@ msgstr ""
 
 #: ../search.php:16
 msgid "Search Results For"
-msgstr ""
+msgstr "Suchergebnisse für"
+
+#: ../search.php:27
+msgid "Sorry, no results"
+msgstr "Leider keine Ergebnisse."
 
 #: ../search.php:27
 msgid ""
 "Unfortunately your search turned up no results please try another search "
 "term."
-msgstr ""
+msgstr "Es konnte kein Inhalt mit dem verwendeten Suchbegriff gefunden werden."
 
 #: ../single.php:58
 msgid "Article Written By "

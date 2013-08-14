@@ -7,7 +7,7 @@ add_action( 'widgets_init', 'attpeer_widgets_init' );
 function attpeer_theme_setup() {
 	// Localization support
 	$ret = load_child_theme_textdomain( 'att', get_stylesheet_directory() . '/lang' );
-	var_dump($ret);
+	//var_dump($ret);
 }
 
 

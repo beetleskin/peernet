@@ -15,29 +15,74 @@
 
 body a:hover,
 #sidebar a,
-p a{
+.header-widget a:hover, 
+p a,
+#navigation-secondary .dropdown-menu > li > a:hover, 
+#navigation-secondary .dropdown-menu > li.sfHover > a, 
+#navigation-secondary .dropdown-menu > .current-menu-item > a, 
+#navigation-secondary .current-menu-parent > a, 
+#navigation-secondary .current-menu-parent > a:hover, 
+#navigation-secondary .current-menu-item > a:hover,
+#navigation-secondary .dropdown-menu ul li > a:hover
+{
 	color: #00a0d1;
 }
 
-@media (min-width: 768px) {
+.header-widget a{
+	color: #606060;
+}
 	
-/*widget-box top*/
+.header-widget.widget_qtranslate ul li.active a{
+	text-decoration: underline;
+}
+/*widget-box top* --> not for smartphones: need to be redoooone > klappmenu und facebookbutton anzeigen*/
 
-	.header-box {
-		height: 50px;
-	}
+.header-box {
+	display: inline;
+	margin-right: 15px;
+	line-height: 26px;
+}
 
-	.header-widget {
-		height: 100%;
-		display: block;
-		float: left;
-		margin-left: 2%;
-		line-height: 50px;
-	}
+.header-widget {
+	width: auto;
+	float: left;
+}	
 
-	.header-widget.widget_qtranslate > ul > li {
-		margin-left: 10px;
-		display: block;
-		float: left;
-	}
+.header-widget.widget_qtranslate > ul > li {
+	float: left;
+	margin-left: 15px;
+}
+
+.header-widget.widget_qtranslate .qtrans_flag_de,
+.header-widget.widget_qtranslate .qtrans_flag_en {
+	background-position-y: 2px;
+}
+
+.header-widget.widget_text > div{
+	margin-left: 15px;
+}
+
+#header-social {
+	height: auto;
+	right: 0;
+	top: 0;
+	margin-top: 0;
+	position: relative;
+}
+
+#topbar .span_4 {
+	width: auto;
+	float: right;
+}
+
+#topbar {
+	position: relative;
+	height: auto;
+	border-bottom: 2px solid #606060;
+	padding-bottom: 8px;
+}
+
+#topbar-wrap {
+	padding: 0 30px;
+	margin: 8px 0 0 0;
 }

@@ -10,3 +10,12 @@ Text Domain: apollo_peernet
 */
 @import url("../att-apollo/style.css");
 /* -------------------------------------------------------------- */
+
+/*links*/
+
+body a:hover,
+#sidebar a,
+p a{
+	color: #00a0d1;
+}
+

@@ -85,6 +85,25 @@ p a,
 	margin: 8px 0 0 0;
 }
 
+/* page numbers --> posts*/
+
+.page-numbers a:hover, .page-numbers.current {
+	color: #fff;
+	background: #00a0d1;
+	border-color: transparent;
+}
+
+/*main menu*/
+
+#navbar{
+	background: #efefef;
+}
+
+#navigation-secondary{
+	padding-left: 20px;
+}
+
+/*header*/
 
 /* FIXES */
 .loop-entry.count-2 {

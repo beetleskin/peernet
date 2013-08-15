@@ -27,7 +27,7 @@ get_header(); ?>
         endwhile;
 	 else :
 	 // No results found
-	 	echo '<div class="clr boxed"><h3>Sorry, no results</h3>' . __('Unfortunately your search turned up no results please try another search term.','att') . '</div>';
+	 	echo '<div class="clr boxed"><h3>' . __('Sorry, no results','att') . '</h3>' . __('Unfortunately your search turned up no results please try another search term.','att') . '</div>';
 	 endif; ?>
 
 </div><!-- #post -->

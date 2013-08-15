@@ -105,6 +105,14 @@ p a,
 
 /*header*/
 
+#header-wrap {
+	padding: 21px 14px 8px 20px;
+}
+
+#logo.span_4 {
+	width: 45%;
+}
+
 /* FIXES */
 .loop-entry.count-2 {
 	padding-left: 0px;

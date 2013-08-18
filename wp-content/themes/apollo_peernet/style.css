@@ -11,8 +11,12 @@
 @import url("../att-apollo/style.css");
 /* -------------------------------------------------------------- */
 
-/*links*/
+body.custom-background { 
+	background-image: url(".images/style.css");
+}
 
+
+/*links*/
 body a:hover, #sidebar a, 
 .header-widget a:hover, 
 p a, 
@@ -178,10 +182,8 @@ p a,
 	color: #000;
 }
 
-.category #page-heading img,
-#post img {
-	height: auto;
-	max-width: 100%;
+article.entry img,
+article#post img {
 	padding: 7px 22px 13px 0px;
 }
 

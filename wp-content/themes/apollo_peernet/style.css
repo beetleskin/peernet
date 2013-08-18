@@ -54,10 +54,14 @@ body {
 
 #footer {
 	background: red;
-	padding: 0 15px;
+	padding: 15px 15px;
 	position: relative;
 	font-size: 12px;
 	border-top: 4px solid #000;
+}
+
+#footer-widgets{
+	margin: 0;
 }
 
 #footerbottom{

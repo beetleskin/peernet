@@ -14,6 +14,7 @@
     <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <?php wp_head(); ?>   
+    <link rel="shortcut icon" href="http://peernet.org/wp-content/uploads/favicon.ico"/>
 </head>
 
 <!-- Begin Body -->

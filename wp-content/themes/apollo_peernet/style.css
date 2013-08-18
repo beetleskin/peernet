@@ -76,7 +76,7 @@ p a,
 #topbar {
 	position: relative;
 	height: auto;
-	border-bottom: 2px solid #606060;
+	border-bottom: 1px solid #dedede;
 	padding-bottom: 8px;
 }
 
@@ -100,7 +100,17 @@ p a,
 }
 
 #navigation-secondary{
-	padding-left: 20px;
+	padding-left: 10px;
+}
+
+#navigation-secondary .dropdown-menu > li {
+	margin-right: 16px;
+}
+
+#navigation-secondary li [class^="icon-"], .nav li [class^="icon-"], li [class*=" icon-"], .nav li [class*=" icon-"] {
+	display: inline-block;
+	width: 0.7em;
+	text-align: left;
 }
 
 /*header*/

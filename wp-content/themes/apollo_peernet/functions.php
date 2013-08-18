@@ -1,12 +1,15 @@
 <?php
 
 
-add_action( 'after_setup_theme', 'attpeer_theme_setup' );
+add_action( 'after_setup_theme', 'attpeer_theme_setup', 99 );
 add_action( 'widgets_init', 'attpeer_widgets_init' );
 
 function attpeer_theme_setup() {
 	// Localization support
-	$ret = load_child_theme_textdomain( 'att', get_stylesheet_directory() . '/lang' );
+	load_child_theme_textdomain( 'att', get_stylesheet_directory() . '/lang' );
+	
+	// disable custom bg due to memory limitation (the thumbnail generation of big images causes a crash which fails the upload ... damn you provider!)
+	remove_theme_support('custom-background');
 }
 
 

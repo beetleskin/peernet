@@ -11,12 +11,29 @@
 @import url("../att-apollo/style.css");
 /* -------------------------------------------------------------- */
 
-body.custom-background { 
-	background-image: url(".images/style.css");
+/* body backgroud and background */
+body {
+	background-image: url('./images/hintergrund.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+	background-color: #E8E8E8;
+}	
+	
+/*main-content*/
+#header,
+#main-content,
+#footer {
+	background: #fff;
 }
 
+#header,
+#footer,
+#main-content {
+	padding: 8px;
+}
 
-/*links*/
+/* links */
 body a:hover, #sidebar a, 
 .header-widget a:hover, 
 p a, 

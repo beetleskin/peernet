@@ -147,7 +147,8 @@ p a,
 /*header*/
 
 #header-wrap {
-	padding: 21px 14px 8px 20px;
+	/*padding: 21px 14px 8px 20px;*/
+	padding: 0 30px;
 }
 
 #logo.span_4 {

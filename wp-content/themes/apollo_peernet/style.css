@@ -113,6 +113,21 @@ p a,
 	text-align: left;
 }
 
+#navigation-secondary #switch-search {
+	display: none;
+}
+
+@media (max-width:959px) { 
+	#navigation-secondary #switch-search {
+		height: 55px;
+		display: inline-block;
+		position: relative;
+		font-weight: 600;
+		text-indent: 30px;
+		line-height: 55px;
+	}
+}
+
 /*header*/
 
 #header-wrap {
@@ -129,8 +144,9 @@ p a,
 }
 	
 @media (min-width:768px) { 
-.loop-entry.count-2 {
-	padding-left: 7px;
+	.loop-entry.count-2 {
+		padding-left: 7px;
+	}
 }
 
 /*Category name + info text*/

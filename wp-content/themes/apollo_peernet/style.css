@@ -11,7 +11,21 @@
 @import url("../att-apollo/style.css");
 /* -------------------------------------------------------------- */
 
+/*body backgroud image*/
+body.custom-background {
+	background-image: url('http://peernet.org/wp-content/themes/apollo_peernet/images/hintergrund.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+}	
+	
 /*links*/
+
+/*main-content*/
+#main-content{
+	background: #fff;
+	padding: 8px;
+}
 
 body a:hover, #sidebar a, 
 .header-widget a:hover, 

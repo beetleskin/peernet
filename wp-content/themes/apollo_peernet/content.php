@@ -15,18 +15,18 @@
 if ( is_singular() && is_main_query() ) { ?>
      
      
-	<?php
+	<!--<?php
 	// Get, resize and display featured image
-	/*if( of_get_option('blog_single_thumbnail','1' ) == '1' && has_post_thumbnail() ) { ?>
+	if( of_get_option('blog_single_thumbnail','1' ) == '1' && has_post_thumbnail() ) { ?>
     <div class="post-head-image">
         <div id="post-thumbnail">
             <img src="<?php echo aq_resize( wp_get_attachment_url( get_post_thumbnail_id() ),  att_img( 'blog_post_width' ), att_img( 'blog_post_height' ), att_img( 'blog_post_crop' ) ); ?>" alt="<?php echo the_title(); ?>" />
-        </div><!-- /post-thumbnail -->   
+        </div><!-- /post-thumbnail  
     </div>
-    <?php } ?>
+    <?php } ?>-->
     
 
-<?php*/
+<?php
 /******************************************************
  * Entries
  * @since 1.0

@@ -132,3 +132,23 @@ p a,
 .loop-entry.count-2 {
 	padding-left: 7px;
 }
+
+/*Category name + info text*/
+
+
+.category #page-heading {
+	background: #efefef;
+	border-bottom: 1px solid #dedede;
+	border-top: 1px solid #dedede;
+	padding: 15px;
+}
+
+.category #page-heading img {
+	height: auto;
+	max-width: 100%;
+	padding: 7px 22px 13px 0px;
+}
+
+.category #page-heading p{
+	color: #000;
+}

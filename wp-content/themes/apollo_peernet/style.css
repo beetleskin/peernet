@@ -21,11 +21,34 @@ body.custom-background {
 	
 /*links*/
 
-/*main-content*/
-#main-content{
-	background: #fff;
-	padding: 8px;
+/*white background site elements*/
+
+#box-wrap {
+	margin: 40px auto;
+	padding: 15px 15px;
+	background: red;
 }
+#navbar.row {
+	margin-bottom: 0;
+	background: red;
+	padding: 0 15px;
+}
+
+#header-wrap .row {
+	margin-bottom: 0;
+	background: red;
+	padding: 0 15px;
+}
+
+#header-wrap {
+	/*padding: 21px 14px 8px 20px;*/
+	padding: 0 0px;
+}
+
+#navbar-wrap {
+	padding: 0 0px;
+}
+
 
 body a:hover, #sidebar a, 
 .header-widget a:hover, 
@@ -160,10 +183,6 @@ p a,
 
 /*header*/
 
-#header-wrap {
-	/*padding: 21px 14px 8px 20px;*/
-	padding: 0 30px;
-}
 
 #logo.span_4 {
 	width: 45%;

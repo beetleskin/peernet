@@ -11,18 +11,17 @@
 @import url("../att-apollo/style.css");
 /* -------------------------------------------------------------- */
 
-/*body backgroud image*/
-body.custom-background {
-	background-image: url('http://peernet.org/wp-content/themes/apollo_peernet/images/hintergrund.png');
+/* body backgroud and background */
+body {
+	background-image: url('./images/hintergrund.png');
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-attachment: fixed;
+	background-color: #E8E8E8;
 }	
 	
-/*links*/
 
 /*white background site elements*/
-
 #box-wrap {
 	margin: 40px auto;
 	padding: 15px 15px;
@@ -74,6 +73,7 @@ body.custom-background {
 	padding: 0;
 }
 
+/*links*/
 body a:hover, #sidebar a, 
 .header-widget a:hover, 
 p a, 
@@ -238,10 +238,8 @@ p a,
 	color: #000;
 }
 
-.category #page-heading img,
-#post img {
-	height: auto;
-	max-width: 100%;
+article.entry img,
+article#post img {
 	padding: 7px 22px 13px 0px;
 }
 

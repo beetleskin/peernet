@@ -166,21 +166,26 @@ p a,
 	}
 }
 
-/*Category name + info text*/
-.category #page-heading {
+/* Archive title + info text */
+.archive #page-heading {
 	background: #efefef;
 	border-bottom: 1px solid #dedede;
 	border-top: 1px solid #dedede;
 	padding: 15px;
 }
 
+.archive #page-heading p {
+	color: #000;
+}
+
 .category #page-heading img,
-#post img{
+#post img {
 	height: auto;
 	max-width: 100%;
 	padding: 7px 22px 13px 0px;
 }
 
-.category #page-heading p{
-	color: #000;
+.author #post-author-box {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }

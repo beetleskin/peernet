@@ -119,12 +119,28 @@ p a,
 
 @media (max-width:959px) { 
 	#navigation-secondary #switch-search {
+		width: 55px;
 		height: 55px;
 		display: inline-block;
 		position: relative;
-		font-weight: 600;
-		text-indent: 30px;
+		float: right;
+		clear: right;
+		margin-right: 20px;
+	}
+	
+	#navigation-secondary #switch-search a {
+		height: 55px;
+		display: inline-block;
+		padding: 0px 20px;
 		line-height: 55px;
+		font-weight: 600;
+		color: black;
+		font-size: 140%;
+		text-decoration: none;
+	}
+	
+	#navigation-secondary .selector {
+		width: auto !important;
 	}
 }
 
@@ -151,8 +167,6 @@ p a,
 }
 
 /*Category name + info text*/
-
-
 .category #page-heading {
 	background: #efefef;
 	border-bottom: 1px solid #dedede;

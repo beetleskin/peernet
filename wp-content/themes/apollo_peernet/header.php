@@ -67,7 +67,7 @@
             	// Main navigation location
             	wp_nav_menu( array( 'theme_location' => 'main_menu', 'menu_class' => 'dropdown-menu', 'fallback_cb' => false, 'walker' => new ATT_Dropdown_Walker_Nav_Menu() ) ); 
             ?>
-            <div id="switch-search"><a href="#search"><i class="icon-search">Search</i></a></div>
+            <div id="switch-search"><a href="#s"><i class="icon-search"></i></a></div>
         </div><!-- #navigation -->             
     </nav><!-- #topbar --> 
 </div><!-- #topbar-wrap -->

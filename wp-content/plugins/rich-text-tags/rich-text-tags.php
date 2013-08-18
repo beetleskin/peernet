@@ -153,7 +153,7 @@ function kws_add_form($object = ''){
 		$content = is_object($object) && isset($object->description) ? html_entity_decode($object->description) : '';
 		
 		if( in_array($pagenow, array('edit-tags.php')) ) {
-			$editor_id = 'tag_description';
+			$editor_id = 'content';
 			$editor_selector = 'description';
 		} else {
 			$editor_id = $editor_selector = 'category_description';

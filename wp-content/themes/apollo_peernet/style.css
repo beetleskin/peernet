@@ -174,11 +174,12 @@ p a,
 	padding: 15px;
 }
 
-.archive #page-heading p{
+.archive #page-heading p {
 	color: #000;
 }
 
-.category #page-heading img {
+.category #page-heading img,
+#post img {
 	height: auto;
 	max-width: 100%;
 	padding: 7px 22px 13px 0px;

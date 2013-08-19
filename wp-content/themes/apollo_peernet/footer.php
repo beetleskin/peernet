@@ -54,10 +54,10 @@ jQuery(function($) {
 		var hue_min = 0;
 		var hue_max = 360;
 		var hue = hue_min;
-		var value = 100;
-		var value_target = 50;
+		var value = 91;
+		var value_target = 40;
 		var saturation = 0;
-		var saturation_target = 100;
+		var saturation_target = 70;
 		var colorBlinder = null;
 		var idle = 0;
 		
@@ -79,7 +79,7 @@ jQuery(function($) {
 				value = 91;
 				value_target = 40;
 				saturation = 0;
-				saturation_target = 60;
+				saturation_target = 70;
 				colorBlinder = null;
 			}
 		}

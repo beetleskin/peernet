@@ -55,17 +55,16 @@ jQuery(function($) {
 		var hue_max = 360;
 		var hue = hue_min;
 		var value = 91;
-		var value_target = 40;
+		var value_target = 80;
 		var saturation = 0;
-		var saturation_target = 70;
+		var saturation_target = 60;
 		var colorBlinder = null;
 		var idle = 0;
 		
 		function counter() {
 			idle++;
-			if(colorBlinder == null && idle > 10) {
-				console.log("init");
-				colorBlinder = window.setInterval(colorblind, 500);
+			if(colorBlinder == null && idle > 45) {
+				colorBlinder = window.setInterval(colorblind, 400);
 			}
 		}
 		
@@ -75,12 +74,10 @@ jQuery(function($) {
 				clearInterval(colorBlinder);
 				colorBlinder = null;
 				$('body').css("background-color", bg_color_default);
-				hue = hue_min;
 				value = 91;
-				value_target = 40;
+				value_target = 80;
 				saturation = 0;
-				saturation_target = 70;
-				colorBlinder = null;
+				saturation_target = 60;
 			}
 		}
 		

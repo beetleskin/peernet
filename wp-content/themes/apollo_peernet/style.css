@@ -17,7 +17,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-attachment: fixed;
-	background-color: #E8E8E8;
+	background-color: #dedede;
 }	
 	
 
@@ -173,7 +173,7 @@ p a,
 }
 
 #navigation-secondary{
-	padding-left: 10px;
+	padding-left: 0;
 }
 
 #navigation-secondary .dropdown-menu > li {
@@ -221,7 +221,7 @@ p a,
 
 
 #logo.span_4 {
-	width: 45%;
+	width: 75%;
 }
 
 /* FIXES */

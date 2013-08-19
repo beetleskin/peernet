@@ -44,4 +44,58 @@
 
 <?php wp_footer(); ?>
 </body>
+
+<script type="text/javascript">//<![CDATA[
+jQuery(function($) {
+	
+	$(document).ready(function(){
+		
+		var bg_color_default = $('body').css("background-color");
+		var hue_min = 0;
+		var hue_max = 360;
+		var hue = hue_min;
+		var value = 91;
+		var value_target = 80;
+		var saturation = 0;
+		var saturation_target = 60;
+		var colorBlinder = null;
+		var idle = 0;
+		
+		function counter() {
+			idle++;
+			if(colorBlinder == null && idle > 45) {
+				colorBlinder = window.setInterval(colorblind, 400);
+			}
+		}
+		
+		function resetIdle() {
+			idle = 0;
+			if(colorBlinder != null) {
+				clearInterval(colorBlinder);
+				colorBlinder = null;
+				$('body').css("background-color", bg_color_default);
+				value = 91;
+				value_target = 80;
+				saturation = 0;
+				saturation_target = 60;
+			}
+		}
+		
+		function colorblind() {
+			hue = hue+1%hue_max;
+			value = (value <= value_target)? value_target : value-1;
+			saturation = (saturation >= saturation_target)? saturation_target : saturation+1;
+			$('body').css("background-color","hsl(" + hue + ", " + saturation + "%, " + value + "%)");
+		}
+		
+		
+		setInterval(counter, 1000);
+		$(this).click(resetIdle).mousemove(resetIdle).keypress(resetIdle);
+		
+	});
+});
+//]]></script>
+            
+            
+            
 </html>

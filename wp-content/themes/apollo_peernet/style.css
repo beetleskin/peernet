@@ -22,20 +22,25 @@ body {
 	
 
 /*white background site elements*/
+
+#main-content{
+	margin-bottom: 0;
+}
+
 #box-wrap {
 	margin: 25px auto;
 	padding: 15px 15px;
-	background: red;
+	background: #fff;
 }
 #navbar.row {
 	margin-bottom: 0;
-	background: red;
+	background: #fff;
 	padding: 0 15px;
 }
 
 #header-wrap .row {
 	margin-bottom: 0;
-	background: red;
+	background: #fff;
 	padding: 0 15px;
 }
 
@@ -53,7 +58,7 @@ body {
 }
 
 #footer {
-	background: red;
+	background: #fff;
 	padding: 15px 15px;
 	position: relative;
 	font-size: 12px;
@@ -65,7 +70,7 @@ body {
 }
 
 #footerbottom{
-	background: red;
+	background: #fff;
 	padding: 0 15px;
 }
 
@@ -126,7 +131,7 @@ p a,
 }
 
 #topbar {
-	background: red;
+	background: #fff;
 	padding: 5px 15px 5px;
 	position: relative;
 	height: auto;

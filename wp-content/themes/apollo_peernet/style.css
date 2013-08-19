@@ -22,32 +22,65 @@ body {
 	
 
 /*white background site elements*/
+
+#main-content{
+	margin-bottom: 0;
+}
+
 #box-wrap {
-	margin: 40px auto;
+	margin: 25px auto;
 	padding: 15px 15px;
-	background: red;
+	background: #fff;
 }
 #navbar.row {
 	margin-bottom: 0;
-	background: red;
+	background: #fff;
 	padding: 0 15px;
 }
 
 #header-wrap .row {
 	margin-bottom: 0;
-	background: red;
+	background: #fff;
 	padding: 0 15px;
 }
 
 #header-wrap {
 	/*padding: 21px 14px 8px 20px;*/
-	padding: 0 0px;
+	padding: 0;
 }
 
 #navbar-wrap {
-	padding: 0 0px;
+	padding: 0;
 }
 
+#footer-wrap {
+	padding: 0;
+}
+
+#footer {
+	background: #fff;
+	padding: 15px 15px;
+	position: relative;
+	font-size: 12px;
+	border-top: 4px solid #000;
+}
+
+#footer-widgets{
+	margin: 0;
+}
+
+#footerbottom{
+	background: #fff;
+	padding: 0 15px;
+}
+
+#footerbottom-wrap {
+	font-size: 12px;
+	text-align: left;
+	overflow: hidden;
+	margin-bottom: 60px;
+	padding: 0;
+}
 
 /*links*/
 body a:hover, #sidebar a, 
@@ -97,6 +130,16 @@ p a,
 	margin-left: 15px;
 }
 
+#topbar {
+	background: #fff;
+	padding: 5px 15px 5px;
+	position: relative;
+	height: auto;
+	border-bottom: 1px solid #dedede;
+}
+
+/**/
+
 #header-social {
 	height: auto;
 	right: 0;
@@ -110,16 +153,9 @@ p a,
 	float: right;
 }
 
-#topbar {
-	position: relative;
-	height: auto;
-	border-bottom: 1px solid #dedede;
-	padding-bottom: 8px;
-}
-
 #topbar-wrap {
-	padding: 0 30px;
-	margin: 8px 0 0 0;
+	padding: 0;
+	margin: 0;
 }
 
 /* page numbers --> posts*/

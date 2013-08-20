@@ -19,9 +19,17 @@ body {
 	background-attachment: fixed;
 	background-color: #dedede;
 }	
-	
 
-/*white background site elements*/
+#topbar,
+#box-wrap,
+#navbar.row,
+#header-wrap .row,
+#footer,
+#footerbottom {
+	background-color: #fff;
+	background-color: rgba(255,255,255,0.96);
+}
+
 
 #main-content{
 	margin-bottom: 0;
@@ -30,17 +38,15 @@ body {
 #box-wrap {
 	margin: 25px auto;
 	padding: 15px 15px;
-	background: #fff;
 }
+
 #navbar.row {
 	margin-bottom: 0;
-	background: #fff;
 	padding: 0 15px;
 }
 
 #header-wrap .row {
 	margin-bottom: 0;
-	background: #fff;
 	padding: 0 15px;
 }
 
@@ -58,19 +64,17 @@ body {
 }
 
 #footer {
-	background: #fff;
 	padding: 15px 15px;
 	position: relative;
 	font-size: 12px;
 	border-top: 4px solid #000;
 }
 
-#footer-widgets{
+#footer-widgets {
 	margin: 0;
 }
 
-#footerbottom{
-	background: #fff;
+#footerbottom {
 	padding: 0 15px;
 }
 
@@ -131,7 +135,6 @@ p a,
 }
 
 #topbar {
-	background: #fff;
 	padding: 5px 15px 5px;
 	position: relative;
 	height: auto;

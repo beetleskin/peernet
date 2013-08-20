@@ -54,7 +54,6 @@ body {
 }
 
 #header-wrap {
-	/*padding: 21px 14px 8px 20px;*/
 	padding: 0;
 }
 
@@ -145,7 +144,7 @@ p a,
 }
 
 /* header */
-#logo > a {
+#logo > a > img {
 	display: block;
 }
 

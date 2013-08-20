@@ -18,6 +18,7 @@ body {
 	background-position: top left;
 	background-attachment: fixed;
 	background-color: #dedede;
+	background-size: cover;
 }	
 
 #topbar,

@@ -141,7 +141,10 @@ p a,
 	border-bottom: 1px solid #dedede;
 }
 
-/**/
+/* header */
+#logo > a {
+	display: block;
+}
 
 #header-social {
 	height: auto;

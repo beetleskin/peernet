@@ -27,7 +27,7 @@ body {
 #footer,
 #footerbottom {
 	background-color: #fff;
-	background-color: rgba(255,255,255,0.96);
+	background-color: rgba(255,255,255,0.95);
 }
 
 
@@ -45,9 +45,12 @@ body {
 	padding: 0 15px;
 }
 
+#header {
+	max-width: 970px;
+}
+
 #header-wrap .row {
 	margin-bottom: 0;
-	padding: 0 15px;
 }
 
 #header-wrap {

@@ -39,7 +39,7 @@
 
 <div id="header-wrap">
     	<div id="header" class="container row">   
-            <div id="logo" class="col span_4">
+            <div id="logo" class="col span_12">
                 <?php
                 // Show custom image logo if defined in the admin
                 if( of_get_option('custom_logo','') !== '' ) { ?>

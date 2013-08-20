@@ -13,7 +13,7 @@
 
 /* body backgroud and background */
 body {
-	background-image: url('./images/hintergrund.png');
+	background-image: url('./images/hintergrund_sky.png');
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-attachment: fixed;
@@ -37,16 +37,16 @@ body {
 
 #box-wrap {
 	margin: 25px auto;
-	padding: 15px 15px;
+	padding: 20px 20px;
 }
 
 #navbar.row {
 	margin-bottom: 0;
-	padding: 0 15px;
+	padding: 0 20px;
 }
 
 #header {
-	max-width: 970px;
+	max-width: 980px;
 }
 
 #header-wrap .row {
@@ -67,7 +67,7 @@ body {
 }
 
 #footer {
-	padding: 15px 15px;
+	padding: 20px 20px;
 	position: relative;
 	font-size: 12px;
 	border-top: 4px solid #000;
@@ -78,7 +78,7 @@ body {
 }
 
 #footerbottom {
-	padding: 0 15px;
+	padding: 0 20px;
 }
 
 #footerbottom-wrap {
@@ -138,7 +138,7 @@ p a,
 }
 
 #topbar {
-	padding: 5px 15px 5px;
+	padding: 5px 20px 5px;
 	position: relative;
 	height: auto;
 	border-bottom: 1px solid #dedede;
@@ -264,4 +264,11 @@ article#post img {
 .author #post-author-box {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+}
+
+/*footer*/
+
+#footerbottom {
+	border-top: 0;
+	padding-top: 0px;
 }

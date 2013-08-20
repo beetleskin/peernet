@@ -50,7 +50,7 @@ jQuery(function($) {
 	
 	$(document).ready(function(){
 		
-		var bg_color_default = $('body').css("background-color");
+		var bg_color_default = $('#logo').css("background-color");
 		var hue_min = 0;
 		var hue_max = 360;
 		var hue = hue_min;
@@ -73,7 +73,7 @@ jQuery(function($) {
 			if(colorBlinder != null) {
 				clearInterval(colorBlinder);
 				colorBlinder = null;
-				$('body').css("background-color", bg_color_default);
+				$('#logo').css("background-color", bg_color_default);
 				value = 91;
 				value_target = 80;
 				saturation = 0;
@@ -85,7 +85,7 @@ jQuery(function($) {
 			hue = hue+1%hue_max;
 			value = (value <= value_target)? value_target : value-1;
 			saturation = (saturation >= saturation_target)? saturation_target : saturation+1;
-			$('body').css("background-color","hsl(" + hue + ", " + saturation + "%, " + value + "%)");
+			$('#logo').css("background-color","hsl(" + hue + ", " + saturation + "%, " + value + "%)");
 		}
 		
 		

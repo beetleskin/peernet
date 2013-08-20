@@ -28,7 +28,7 @@ body {
 #footer,
 #footerbottom {
 	background-color: #fff;
-	background-color: rgba(255,255,255,0.96);
+	background-color: rgba(255,255,255,0.95);
 }
 
 
@@ -46,13 +46,15 @@ body {
 	padding: 0 20px;
 }
 
+#header {
+	max-width: 980px;
+}
+
 #header-wrap .row {
 	margin-bottom: 0;
-	padding: 0 20px;
 }
 
 #header-wrap {
-	/*padding: 21px 14px 8px 20px;*/
 	padding: 0;
 }
 
@@ -143,7 +145,7 @@ p a,
 }
 
 /* header */
-#logo > a {
+#logo > a > img {
 	display: block;
 }
 

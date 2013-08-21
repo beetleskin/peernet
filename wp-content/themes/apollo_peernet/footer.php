@@ -82,7 +82,7 @@ jQuery(function($) {
 		}
 		
 		function colorblind() {
-			hue = hue+1%hue_max;
+			hue = (hue+1)%hue_max;
 			value = (value <= value_target)? value_target : value-1;
 			saturation = (saturation >= saturation_target)? saturation_target : saturation+1;
 			$('#logo').css("background-color","hsl(" + hue + ", " + saturation + "%, " + value + "%)");

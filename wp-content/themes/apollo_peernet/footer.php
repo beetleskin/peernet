@@ -50,7 +50,7 @@ jQuery(function($) {
 	
 	$(document).ready(function(){
 		
-		var bg_color_default = $('#logo').css("background-color");
+		var bg_color_default = $('#header-wrap .row').css("background-color");
 		var hue_min = 0;
 		var hue_max = 360;
 		var hue = hue_min;
@@ -60,11 +60,12 @@ jQuery(function($) {
 		var saturation_target = 60;
 		var colorBlinder = null;
 		var idle = 0;
+		var $container = $('#header-wrap .row');
 		
 		function counter() {
 			idle++;
 			if(colorBlinder == null && idle > 45) {
-				colorBlinder = window.setInterval(colorblind, 400);
+				colorBlinder = window.setInterval(colorblind, 300);
 			}
 		}
 		
@@ -73,7 +74,7 @@ jQuery(function($) {
 			if(colorBlinder != null) {
 				clearInterval(colorBlinder);
 				colorBlinder = null;
-				$('#logo').css("background-color", bg_color_default);
+				$container.css("background-color", bg_color_default);
 				value = 91;
 				value_target = 80;
 				saturation = 0;
@@ -85,7 +86,7 @@ jQuery(function($) {
 			hue = (hue+1)%hue_max;
 			value = (value <= value_target)? value_target : value-1;
 			saturation = (saturation >= saturation_target)? saturation_target : saturation+1;
-			$('#logo').css("background-color","hsl(" + hue + ", " + saturation + "%, " + value + "%)");
+			$container.css("background-color","hsl(" + hue + ", " + saturation + "%, " + value + "%)");
 		}
 		
 		
